@@ -30,15 +30,25 @@
 
 body {
   background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #mpicture{
-  margin-left: 5%;
-  margin-right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #allginfos{
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#meldung {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
 }
