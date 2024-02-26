@@ -75,16 +75,18 @@
       </div>
       <div id="meldung">
         <p>Welche Stelle möchten Sie melden?</p>
-        <form action="mailto:contact@niconagel.de" method="post">
+        <form action="mailto:contact@niconagel.de" method="get">
           <label for="name">Vor- und Zuname</label>
-          <input type="text" name="name" id="name">
-          <script>
-            var i= 0;
-            var eingabe = document.getElementById("name");
-          </script>
-          <input type="submit" value="Absenden">
-        </form>
+          <input type="text" name="name" id="name" required>
+          <input type="submit" value="Absenden">Absenden
+        <script>
+          var i= 0;
+          var eingabe = document.getElementById("name");
+        </script>
       </div>
     </main>
+    <footer>
+      <a href="imprint.html">Impressum</a>
+    </footer>
   </body>
 </html>
